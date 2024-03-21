@@ -1,4 +1,4 @@
-@charset "UTF-8";
+/*@charset "UTF-8";
 
 * {
     margin: 0px;
@@ -68,14 +68,66 @@ div.normal > p {
 
 
 body {
+    
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#formas_pagamento {
-    color: red;
+
+.container {
+    
+    display: flex;
 }
 
- 
+.container > img {
+    padding: 50px;
+    width: 30%;
+    height: 30%;
+  
+}
+
+
+.container > p {
+    color: #7a7a7a;
+    font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    width: 50%;
+}
+
+
+.sobre {
+    width: 100%;
+    font-family: cursive;
+    font-size: 50px;
+    color: #8eba1c;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+main.cards {
+    width: 100%;
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+    
+}
+
+main.cards section.card .icon {
+
+}
+
+
+main.cards section.card img {
+   
+}
+    
+
+
+
+
 #rodape {
     text-align: center;
 }
@@ -86,6 +138,6 @@ body {
     margin-bottom: 20px;
     padding-bottom: 10px;
 }
-
+*/
 
 
